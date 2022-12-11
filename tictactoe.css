@@ -1,7 +1,66 @@
-td{
-  height:150px;
-  width:150px;
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.playerCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.playerCont .playerSubCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.playerCont .playerSubCont .player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  padding-bottom: 20px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+table td {
+  height: 150px;
+  width: 150px;
   text-align: center;
   border: 5px solid black;
   font-size: 100px;
 }
+
+.winChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.winChart .scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.winChart .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}/*# sourceMappingURL=tictactoe.css.map */
